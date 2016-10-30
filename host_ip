@@ -1,0 +1,4 @@
+#!/bin/sh
+
+host_ip=$(ip route show | awk '/default/ {print $3}')
+echo $host_ip
