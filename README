@@ -1,0 +1,28 @@
+ncmpcpp 0.6.4 Docker Image
+========================
+
+
+## What?
+
+
+ncmpcpp is a fantastic music client. This Docker image runs ncmpcpp 0.6 inside a Docker container which controls mpd running natively on the host.
+
+
+## Why?
+
+
+ncmpcpp 0.7 and later does not support filtering. ncmpcpp 0.6, which does, is cumbersome to install on the latest versions of Ubuntu and Debian - the official repositories only include 0.5 and 0.7 due to the timing of the release cycles, and several key dependencies have been renamed.
+
+
+Fortunately, it's easy to run ncmpcpp inside a Docker container even if mpd is running on a host. That way, you don't have to worry about making sure your music library is accessible to mpd inside a container, but you also don't have to worry about installing a custom version of ncmpcpp on your host.
+
+
+## Who?
+
+ncmpcpp is maintained by Andrzej Rybczak. This Docker image is not affiliated with the ncmpcpp project.
+
+
+
+## License
+
+ncmpcpp is Free Software licensed under the GNU GPLv2 (or later).
