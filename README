@@ -5,7 +5,7 @@ ncmpcpp 0.6.4 Docker Image
 ## What?
 
 
-ncmpcpp is a fantastic music client. This Docker image runs ncmpcpp 0.6 inside a Docker container which controls mpd running natively on the host.
+[ncmpcpp](http://rybczak.net/ncmpcpp/) is a fantastic music client. This Docker image runs ncmpcpp 0.6 inside a Docker container which controls mpd running natively on the host.
 
 
 ## Why?
@@ -25,4 +25,4 @@ ncmpcpp is maintained by Andrzej Rybczak. This Docker image is not affiliated wi
 
 ## License
 
-ncmpcpp is Free Software licensed under the GNU GPLv2 (or later).
+ncmpcpp is Free Software licensed under the GNU GPLv2 (or later): [ncmpcpp on Github](https://github.com/arybczak/ncmpcpp)
